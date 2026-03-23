@@ -8,6 +8,13 @@
     --highlight-color-two: #6096BA;
     --extra-color: #A27E6F;
 }
+.navbar {
+    background-color: var(--highlight-color-one);
+}
+.navbar-brand {
+    color: var(--extra-color);
+    font-family: "Bitcount Prop Single Ink", system-ui;
+}
 body{
     background-color: var(--bg-color);
 }
@@ -47,7 +54,10 @@ body{
     background-color: var(--extra-color);
     border-radius: 1em;
     border-color: white;
-    
+}
+.btn:hover {
+    background-color: black;
+    border-color: #23231A;
 }
 h2 {
     font-weight: 700;
