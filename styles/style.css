@@ -20,8 +20,10 @@ body{
 }
 /* Hero Section */
 .hero-section {
-    background-color: var(--highlight-color-one);
+    background: url(../images/bluecat.webp);
+    background-size: cover;
     height: 100vh;
+    background-position: 50% 50%;
     display: flex;
     align-items: center;
     justify-content: center;
