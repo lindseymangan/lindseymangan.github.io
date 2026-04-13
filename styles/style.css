@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 :root {
     --bg-color: #CADBC0; 
     --text-color: #23231A;
@@ -13,18 +13,18 @@
 }
 .navbar-brand {
     color: var(--extra-color);
-    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-family: "Pompiere", sans-serif;
+    font-size: x-large;
 }
 body{
     background-color: var(--bg-color);
 }
 /* Hero Section */
 .hero-section {
-    background: url(../images/bluecat.webp);
-    background-size: cover;
+    background: url(../images/travel-landscape-reef-tourism-panorama-wave.jpg);
     height: 100vh;
-    background-position: 50% 50%;
-    display: flex;
+    background-position: 30% 30%;
+    display:block;
     align-items: center;
     justify-content: center;
     color: var(--text-color);
@@ -35,8 +35,8 @@ body{
 }
 
 .hero-section h1 {
-    font-family: "Bitcount Prop Single Ink", system-ui;
-    font-weight: 700;
+    font-family: "Fascinate", system-ui;
+    font-weight: 600;
 }
 
 .hero-section .lead {
@@ -52,6 +52,13 @@ body{
     background-color: var(--highlight-color-two);
     font-family: "Mulish", sans-serif;
 }
+ 
+.carousel-inner img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
 .btn {
     background-color: var(--extra-color);
     border-radius: 1em;
@@ -61,7 +68,15 @@ body{
     background-color: black;
     border-color: #23231A;
 }
+p {
+    font-family: "Pompiere", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    
+ }
+    
 h2 {
+font-family: "Pompiere", sans-serif;
     font-weight: 700;
     color: black;
 }
