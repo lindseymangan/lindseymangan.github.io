@@ -2,36 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Pompiere&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 :root {
-    --bg-color: #CADBC0; 
-    --text-color: #23231A;
-    --highlight-color-one: #511C29;
-    --highlight-color-two: #6096BA;
-    --extra-color: #A27E6F;
+    --dark-green: #0A3323; 
+    --moss-green: #839958;
+    --beige: #F7F4D5; 
+    --rosy-brown: #D3968C;
+    --midnight-green: #105666; 
 }
 .navbar {
-    background-color: var(--highlight-color-one);
+    background-color: var(--dark-green);
 }
 .navbar-brand {
-    color: var(--extra-color);
+    color: var(--moss-green);
     font-family: "Pompiere", sans-serif;
     font-size: x-large;
 }
 body{
-    background-color: var(--bg-color);
+    background-color: var(--dark-green);
 }
 /* Hero Section */
 .hero-section {
-    background: url(../images/travel-landscape-reef-tourism-panorama-wave.jpg);
     height: 100vh;
     background-position: 30% 30%;
-    display:block;
+    display: block;
     align-items: center;
     justify-content: center;
-    color: var(--text-color);
-}
-
-.bg-light {
-    background-color: red;
+    color: var(--rosy-brown);
 }
 
 .hero-section h1 {
@@ -49,24 +44,30 @@ body{
     border-radius: 0;
 }
 .work-card {
-    background-color: var(--highlight-color-two);
+    background-color: var(--beige);
     font-family: "Mulish", sans-serif;
 }
- 
+.map {
+    columns: 3em
+}
 .carousel-inner img {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
 }
-
 .btn {
-    background-color: var(--extra-color);
+    background-color: var(--midnight-green);
     border-radius: 1em;
     border-color: white;
 }
+
 .btn:hover {
     background-color: black;
     border-color: #23231A;
+}
+.lead.mb-4 {
+    font-size: 3em;
+    color: #6096BA;
 }
 p {
     font-family: "Pompiere", sans-serif;
