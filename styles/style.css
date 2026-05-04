@@ -50,6 +50,13 @@ body{
 .map {
     columns: 3em
 }
+.nav-link  
+{
+    color:#839958;
+    font-family: "Pompiere", sans-serif;
+    font-size: x-large;
+
+}
 .carousel-inner img {
     width: 100%;
     aspect-ratio: 16/9;
