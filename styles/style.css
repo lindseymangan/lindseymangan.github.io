@@ -17,13 +17,14 @@
     font-size: x-large;
 }
 body{
-
     background-color: var(--dark-green);
 }
 /* Hero Section */
 .hero-section {
-    height: 100vh;
-    background-position: 30% 30%;
+    background: url(../images/background.gif);
+    height: 104vh;
+    background-position: 20% 20%;
+    background-size: cover;
     display: block;
     align-items: center;
     justify-content: center;
@@ -78,6 +79,9 @@ body{
 .lead.mb-4 {
     font-size: 3em;
     color: #6096BA;
+}
+.text-center h1{
+    color: var(--midnight-green)
 }
 p {
     font-family: "Pompiere", sans-serif;
