@@ -17,6 +17,7 @@
     font-size: x-large;
 }
 body{
+
     background-color: var(--dark-green);
 }
 /* Hero Section */
@@ -33,7 +34,9 @@ body{
     font-family: "Fascinate", system-ui;
     font-weight: 600;
 }
-
+.text-center{
+    color:#D3968C;
+}
 .hero-section .lead {
     font-size: 1.5rem;
 }
