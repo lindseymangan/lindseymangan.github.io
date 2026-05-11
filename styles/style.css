@@ -46,10 +46,10 @@ body{
 .artist {
     background-color: var(--moss-green);
 }
-.text-center{
+.text-center{ 
     color:#D3968C;
     padding-top: 1em;
-}
+} 
 .hero-section .lead {
     font-size: 1.5rem;
 }
@@ -91,7 +91,10 @@ body{
     color: #6096BA;
 }
 h1{
-    color: var(--midnight-green)
+    color: var(--midnight-green);
+    background-color: #839958;
+    padding: 1em;
+    border-radius: 60%
 }
 h3 {
     font-family: "Pompiere";
@@ -102,7 +105,7 @@ p {
     font-family: "Pompiere";
     font-weight: 400;
     font-style: bold;
-    font-size: larger;
+    font-size: x-large;
     padding-top:1.5em;
  }
 .col-md-6 img{
@@ -114,6 +117,7 @@ padding-bottom: 3em;
     color:#105666;
     padding-top: 1em;
 }
+
 h2 {
 font-family: "Pompiere", sans-serif;
     font-weight: 700;
@@ -123,6 +127,11 @@ font-family: "Pompiere", sans-serif;
 /* lilypad */
 
 .lilypad {
-    width: 100%;
-    padding: 2rem;
+    width: 80%;
+    padding: 2em;
+}
+.littlelilypad {
+    padding: 2em;
+    padding-left: 5em;
+    width: 80%;
 }
