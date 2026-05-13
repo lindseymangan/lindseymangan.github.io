@@ -139,3 +139,15 @@ font-family: "Pompiere", sans-serif;
     padding-left: 5em;
     width: 80%;
 }
+
+.lilypad-container a {
+    display: block;
+    position: relative;
+}
+
+.lilypad-container h3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
