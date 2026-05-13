@@ -90,11 +90,15 @@ body{
     font-size: 3em;
     color: #6096BA;
 }
-h1{
+.main{
     color: var(--midnight-green);
     background-color: #839958;
     padding: 1em;
     border-radius: 60%
+}
+h1 {
+    font-family: "Fascinate-display";
+    color: #D3968C;
 }
 h3 {
     font-family: "Pompiere";
