@@ -17,7 +17,7 @@
     font-size:x-large;
     padding: .5em;
 }
-body{
+body {
     background-color: var(--dark-green);
 }
 .dropdown-item {
@@ -100,6 +100,15 @@ h1 {
     font-family: "Fascinate-display";
     color: #D3968C;
 }
+.contact-page {
+    background-color: var(--midnight-green);
+}
+.contact-head h1 {
+    text-align: center;
+    font-family: "Fascinate";
+    padding-top: 1em;
+    font-size: 3em;
+}
 h3 {
     font-family: "Pompiere";
     font-weight: 400;
@@ -121,23 +130,25 @@ padding-bottom: 3em;
     color:#105666;
     padding-top: 1em;
 }
-
+.col img {
+    width: 100%;
+}
 h2 {
-font-family: "Pompiere", sans-serif;
+    font-family: "Pompiere", sans-serif;
     font-weight: 700;
     color: black;
 }
-
+.contact-head h2 {
+    font-family: "Pompiere";
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom:1em;
+}
 /* lilypad */
 
 .lilypad {
     width: 80%;
     padding: 2em;
-}
-.littlelilypad {
-    padding: 2em;
-    padding-left: 5em;
-    width: 80%;
 }
 
 .lilypad-container a {
@@ -151,3 +162,13 @@ font-family: "Pompiere", sans-serif;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
+
+.contact-icon img {
+    width: 70% ;
+    padding-top: 2em;
+   
+}
+.contact-icon-2 img {
+    width: 70%;
+
+} 
