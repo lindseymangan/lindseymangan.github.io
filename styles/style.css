@@ -17,8 +17,11 @@
     font-size:x-large;
     padding: .5em;
 }
+.navbar-brand:hover {
+    color: #D3968C;
+}
 body {
-    background-color: var(--dark-green);
+    background-color: var(--moss-green);
 }
 .dropdown-item {
     color: var(--rosy-brown);
@@ -30,9 +33,9 @@ body {
 }
 /* Hero Section */
 .hero-section {
-    background: url(../images/background.gif);
+    background: url(../images/Artboard\ 1.png);
     height: 104vh;
-    background-position: 20% 20%;
+    background-position: 80% 80%;
     background-size: cover;
     display: block;
     align-items: center;
@@ -65,13 +68,7 @@ body {
 .map {
     columns: 3em
 }
-/*
-.nav-link  {
-    color:#839958;
-    font-family: "Pompiere", sans-serif;
-    font-size: x-large;
 
-}*/
 .carousel-inner img {
     width: 100%;
     aspect-ratio: 16/9;
@@ -116,6 +113,7 @@ h3 {
 }
 p {
     font-family: "Pompiere";
+    color:#105666;
     font-weight: 400;
     font-style: bold;
     font-size: x-large;
@@ -133,10 +131,16 @@ padding-bottom: 3em;
 .col img {
     width: 100%;
 }
+.lilyname {
+    text-align: center;
+    color:#105666;
+}
 h2 {
     font-family: "Pompiere", sans-serif;
     font-weight: 700;
-    color: black;
+}
+.contact-head h1 {
+    padding-top: 2em;
 }
 .contact-head h2 {
     font-family: "Pompiere";
@@ -144,11 +148,11 @@ h2 {
     padding-top: .5em;
     padding-bottom:1em;
 }
-/* lilypad */
 
 .lilypad {
     width: 80%;
     padding: 2em;
+    filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
 }
 
 .lilypad-container a {
@@ -156,19 +160,10 @@ h2 {
     position: relative;
 }
 
-.lilypad-container h3 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+.lilypad-container .right-align a {
+    text-align: right;
 }
-
-.contact-icon img {
-    width: 70% ;
-    padding-top: 2em;
-   
-}
-.contact-icon-2 img {
-    width: 70%;
-
-} 
+.lilypad-container h2 {
+    font-family: "Fascinate";
+    background-color:#0A3323;
+    pa
