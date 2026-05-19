@@ -22,31 +22,32 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/OBuU94cs458?si=B5r-bQ4uQBzNd7CI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		</div>	
 
-		<div class="container">
-			<h3></h3>
-            <div class="row">
-				<div class="col">
-					<div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-				</div>
-				<div class="col">
-					<div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-				</div>
-			</div>
-		</div>	
+		<!-- this is the button that will trigger the modal. make sure that the 'data-bs-target' matches the modal id  -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exModal">Example modal</button>
+
+
+<!-- this is the modal that will pop up when that button above is clicked -->
+<div class="modal fade" id="exModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- the modal-fullscreen class ensures that the modal takes up the full screen. you can remove that if you don't want the modal to do so -->
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <!-- this is the header — you can delete the h1, if you want, or get rid of the whole header. just make sure to keep a close button, whether that's in the header, the footer, or in the body -->
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <!-- this is where you put the information for this modal -->
+
+            </div>
+            <!-- this is your footer — you can use it, or delete -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

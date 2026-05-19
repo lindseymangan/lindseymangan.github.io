@@ -57,23 +57,19 @@ body {
     font-size: 1.5rem;
 }
 .card img {
-    height: 300px;
-    object-fit: cover;
+    height: 550px;
+    width: 150px;
+    size-adjust: fixed;
+    object-fit:cover;
     border-radius: 0;
 }
 .card {
-    background-color: var(--beige);
     font-family: "Mulish", sans-serif;
 }
 .map {
     columns: 3em
 }
 
-.carousel-inner img {
-    width: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-}
 .btn {
     background-color: var(--midnight-green);
     border-radius: 1em;
