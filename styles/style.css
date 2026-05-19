@@ -166,4 +166,35 @@ h2 {
 .lilypad-container h2 {
     font-family: "Fascinate";
     background-color:#0A3323;
-    pa
+    padding: .5em;
+    border-radius: 100%
+}
+.lilypad-container h3 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.lilypad-container p {
+    text-align: center;
+    color:#F7F4D5;
+    font-size: 36px;
+    padding: 0em;
+}
+.contact-icon img {
+    width: 70% ;
+    padding-top: 2em;
+}
+
+.contact-icon-2 img {
+    width: 70%;
+
+} 
+footer {
+    background-color: #0A3323;
+}
+
+footer p {
+    margin-bottom: 0rem;
+}
