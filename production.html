@@ -3,7 +3,6 @@
 
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -21,7 +20,7 @@
     <link rel="icon" href="images/L.webp" type="image/x-icon">
 </head>
 
-<style>
+<style class="production-page">
     body {
         font-family: Arial, sans-serif;
         background: #f4f4f4;
@@ -32,6 +31,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 15px;
+        padding-bottom: 1em
     }
 
     .gallery img {
@@ -51,7 +51,7 @@
     .lightbox {
         display: none;
         position: fixed;
-        z-index: 10;
+        z-index: 9999;
         padding-top: 60px;
         left: 0;
         top: 0;
@@ -81,11 +81,43 @@
         color: white;
         text-decoration: none;
     }
+    
 </style>
-</head>
-<body class="production-page">
 
-<h2>The Art of Dance</h2>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Lindsey Mangan</a>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                   </li>
+                 <li class="nav-item dropdown">
+        <a class="navbar-brand dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            My Work
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="design.html">Media Design</a></li>
+            <li><a class="dropdown-item" href="production.html">Media Production</a></li>
+            <li><a class="dropdown-item" href="other.html">Other</a></li>
+        </ul>
+                </li>
+                    <li class="nav-item">
+                    <a class="navbar-brand" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="design-head">
+    <h1 style="color: #105666; font-family: Fascinate; text-align: center;">Media Production</h1>
+</section>
+
+<body class="production-page" style="padding-top: 6em">
+
+<h2>The Art of Dance </h2>
 
 <div class="gallery">
     <a href="#img1"><img src="images/_MG_1991.jpg" alt=""></a>
@@ -98,25 +130,32 @@
 <div id="img1" class="lightbox">
     <a href="#" class="close">&times;</a>
     <img src="images/_MG_1991.jpg" alt="">
+    <p style="padding: 2em;text-align: center">The photo series assignment was a final project for my Photojournalism class. We were given the task to select a topic of our choosing based on a passion, hobby, or event. As a previous dancer as one point, I chose to photograph the University of St. Thomas Dance Club as they prepared for their Spring Showcase. </p>
 </div>
 
 <div id="img2" class="lightbox">
     <a href="#" class="close">&times;</a>
     <img src="images/_MG_2033.jpg" alt="">
+    <p style="padding: 2em;text-align: center">My intention behind this photo series was to capture the art, athleticism, and time that goes into dance. Especially since dance as a whole is very commonly not associated as a sport.</p>
 </div>
 
 <div id="img3" class="lightbox">
     <a href="#" class="close">&times;</a>
     <img src="images/_MG_2059.jpg" alt="">
+    <p style="padding: 2em;text-align: center">This was an individual project that I was in charge of all the roles. This included planning, photographing, developing, editing, and presenting the entirety of the series. </p>
 </div>
 
 <div id="img4" class="lightbox">
     <a href="#" class="close">&times;</a>
     <img src="images/_MG_2061.jpg" alt="">
+    <p style="padding: 2em; text-align: center">I used a Canon camera, shot in manual mode, RAW format, and developed/edited in Adobe Lightroom. </p>
 </div>
 <div>
     <h2 class >Vintage Clothing Market</h2>
 </div>
+</section>
+
+<section id="market">
 <div class="gallery">
     <a href="#img5"><img src="images/IMG_6075.JPG" alt=""></a>
     <a href="#img6"><img src="images/IMG_6126.JPG" alt=""></a>
@@ -126,23 +165,62 @@
 
 <!-- Lightbox sections -->
 <div id="img5" class="lightbox">
-    <a href="#" class="close">&times;</a>
+    <a href="#market" class="close">&times;</a>
     <img src="images/IMG_6075.JPG" alt="">
+    <p style="padding: 2em;text-align: center">This series of photos was also for my Photojournalism class. The task was to go somewhere interesting and find interesting people and things to photograph. The title of the assigment was "Content is King".</p>
 </div>
 
 <div id="img6" class="lightbox">
-    <a href="#" class="close">&times;</a>
+    <a href="#market" class="close">&times;</a>
     <img src="images/IMG_6126.JPG" alt="">
+    <p style="padding: 2em;text-align: center">I decided to complete this project through photographs from the Minneapolis Vintage Market at Quincy Hall in North East Minneapolis.</p>
 </div>
 
 <div id="img7" class="lightbox">
-    <a href="#" class="close">&times;</a>
+    <a href="#market" class="close">&times;</a>
     <img src="images/IMG_6138.JPG" alt="">
+    <p style="padding: 2em;text-align: center">I went around for hours capturing different vendor stands and their products. Items such as clothing, purses, belts, shoes, jewelry, and more were in every corner!</p>
 </div>
 
 <div id="img8" class="lightbox">
-    <a href="#" class="close">&times;</a>
+    <a href="#market" class="close">&times;</a>
     <img src="images/IMG_6140.JPG" alt="">
+    <p style="padding: 2em;text-align: center">This was an individual project. I learned a lot from this experience, met some wonderful people, and got to look through an array of vintage clothing and other items.</p>
 </div>
+</section>
+
+<section id="wedding">
+<h2>Wedding Ceremony & Reception</h2>
+<div class="gallery">
+    <a href="#img20"><img src="images/IMG_1018.jpg" alt=""></a>
+    <a href="#img21"><img src="images/IMG_0894.jpg" alt=""></a>
+    <a href="#img22"><img src="images/IMG_0953.jpg" alt=""></a>
+    <a href="#img23"><img src="images/IMG_0832.jpg" alt=""></a>
+</div>
+
+<!-- Lightbox sections -->
+<div id="img20" class="lightbox">
+    <a href="#wedding" class="close">&times;</a>
+    <img src="images/IMG_1018.jpg" alt="">
+    <p style="padding: 2em;text-align: center">These set of photos were taken at a wedding ceremony and reception for a family friend. This was towards the beginning of my photography practices but she wanted as many pictures of their day as possible and I got to help out. </p>
+</div>
+
+<div id="img21" class="lightbox">
+    <a href="#wedding" class="close">&times;</a>
+    <img src="images/IMG_0894.jpg" alt="">
+    <p style="padding: 2em;text-align: center">The photos I have included for my portfolio are my favorites of the album that I captured on their wedding day. Small moments, big moments, and all of the in between. </p>
+</div>
+
+<div id="img22" class="lightbox">
+    <a href="#wedding" class="close">&times;</a>
+    <img src="images/IMG_0953.jpg" alt="">
+    <p style="padding: 2em;text-align: center">Weddings are very important to all those involved and this opportunity was such a crucial learning point in my media production career. </p>
+</div>
+
+<div id="img23" class="lightbox">
+    <a href="#wedding" class="close">&times;</a>
+    <img src="images/IMG_0832.jpg" alt="">
+</div>
+</section>
 </body>
 </html>
